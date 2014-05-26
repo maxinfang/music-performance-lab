@@ -1,0 +1,17 @@
+
+#container {
+	width: 100%;
+/*	margin: 0 auto;
+	background:#FFF;
+	overflow: hidden;*/
+}
+
+#site-banner {
+	width: 100%;
+	background-color:#e1731b;
+}
+
+#footer {
+	background: #eeeeee;	
+}
+

@@ -1,0 +1,336 @@
+
+/****** Banner background colour */
+#site-banner a, #site-banner a:hover {
+	background:#036;
+	color:#fff;
+}
+
+/****** Top navigation - active */
+/* need to add for each */
+.home #nav-home a {
+	background: #f60;
+}
+
+table th {
+	text-align:left;
+	vertical-align:top;
+}
+
+.table-grid {
+	width: 100%;
+}
+
+.table-grid th {
+	background: #f1f1f1;
+}
+
+.table-grid th, .table-grid td {
+	border:1px solid #CCC;
+	padding: 4px 5px 2px;
+	text-align:left;
+}
+
+#greeting {
+	float:right;
+	font-size:1.5em;
+	height:35px;
+	text-align: right;
+	line-height:35px;
+	padding: 0 15px;
+
+}
+
+#content ul, #content h3, #content h4 {
+	margin-bottom: 1em;
+}
+
+#content form {
+	margin: 0px;
+}
+
+
+.field-row {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	height:auto;
+}
+
+.field-row:after, .clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.field-row > label, .field-label {
+	display:block;
+	float:left;
+	width: 190px;
+	margin-right:10px;
+}
+
+.field-row-left > label, .field-row-left .field-label {
+/*	display:block;
+	float:left;
+	width: 190px;
+	text-align:left;
+	margin-right:10px;*/
+	width:150px !important;
+	/*text-align:left !important;*/
+}
+
+.field-row-left .field-field {
+	margin-left:0px !important;
+}
+
+.field-row .field-field {
+	float:left;
+}
+
+.table-view {
+	background:none repeat scroll 0 0 #F1F1F1;
+	border-bottom:2px none;
+	color:#666666;
+	margin:21px 0 21px 2px;
+	padding:17px 21px 21px;
+}
+
+.table-view .field-row {
+	padding: 0.5em 0;
+}
+
+.table-view .field-row .field-field {
+	width: 75%;
+}
+/** 2 Column Form **/
+
+.form-two-column .field-row > label, .form-two-column .field-label {
+	text-align:right;
+	display:block;
+	float:left;
+	width:40%;
+	margin-right:10px;
+}
+
+.field-row-heading:after {
+	content: "";
+	display: inline;
+}
+
+.form-two-column .field-field {
+	margin-left:40%;
+	padding: 0 10px;
+	float:none;
+}
+.form-two-column .field-field-submit {
+	margin-left: 40%;
+}
+
+.form-two-column .field-field-submit input[type=submit] {
+	margin-left: 10px;
+}
+
+.field-submit {
+	margin-top: 1.5em;
+	border-top: 1px solid #CCC;
+	padding: 2em 0 0;
+	text-align:center;
+}
+.group-heading {
+	background:#C8D6E3;
+	padding: 5px 8px;
+}
+
+.group-info .group-heading {
+	background:#DCE6EE;
+	background:#E4ECF5;
+	background:#F0F5F9;
+}
+
+.group-info {
+	padding: 8px 8px;
+}
+
+.group-info strong {
+/*	background: #f1f1f1;
+	padding: 2px 4px;
+	margin: 0px 5px 0 0;
+	line-height:2em;*/
+}
+
+
+.group-row {
+	border-top:1px solid #ccc;
+	padding:0px;
+	margin: 2px 0;
+}
+
+.group-column {
+	float:left;
+	width:50%;
+}
+
+
+.group-row:after {
+	display:block;
+	height:0;
+	clear:both;
+	content: '.';
+	overflow:hidden;
+	visibility:hidden;
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 15px 0px 10px 0;
+}
+
+.field-required {
+	color:#f00;
+}
+
+textarea {
+	padding: 3px;
+	line-height:1.25em;
+}
+
+textarea.textbox-small {
+	width:60%;
+	height:30px;
+}
+
+.textbox-medium {
+	width:300px;
+}
+
+textarea.textbox-medium {
+	width:60%;
+	height:100px;
+}
+
+textarea.textbox-large {
+	width:800px;
+	height:100px;
+}
+
+.field-field textarea.textbox-large {
+	width:600px;
+	height:300px;
+}
+
+.status {
+	border: 1px solid;
+  margin: 10px 0px;
+  padding:10px 10px 10px 15px;
+}
+
+.error {
+	font-weight:normal;
+}
+
+.error-field {
+	width:auto;
+}
+
+.message {
+	font-weight:normal;
+	color: #4F8A10;
+  background-color: #DFF2BF;
+}
+
+.status-inline {
+	padding:2px 4px;
+	width:auto;
+	border:none;
+}
+
+#content ul li {
+	list-style:square;
+	margin-left:2.5em;
+}
+
+#content input[type=text], #content input[type=password] {
+	padding: 3px;	
+}
+
+#ui-datepicker-div {
+	background:#e1e1e1;
+}
+
+.table-row {
+	width: 100%;
+}
+
+.table-row th {
+	background: #f1f1f1;
+	border-bottom: 2px solid #ccc;
+	border-top: 2px solid #ccc;
+	padding: 8px 5px 8px;
+	text-align:left;
+}
+
+.table-row td {
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding: 8px 5px 8px;
+	text-align:left;
+}
+
+.form-navigation {
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+/*	border: 1px solid red;*/
+	padding: 1.5em 0 0 0;
+}
+
+.form-navigation-submit {
+	display:inline;
+}
+
+#content input[type=submit] {
+	font-size: 1em;
+	width: 150px;
+	cursor:pointer;
+	color:#000;
+}
+
+.form-plain {
+	background:none;
+	padding:0;
+	margin:0;
+}
+
+#content .form-plain input[type=submit] {
+	width: auto;
+}
+
+#ui-datepicker-div {
+	font-size:0.75em;
+}
+
+#lesson-length-total {
+/*	width:100%;*/
+	margin:1em auto 0;
+	text-align: center;
+	color:#000;
+	font-size: 1.25em;
+	padding: 1.25em;
+	border: 1px solid #09F;
+	background:#DAEFFB;
+}
+
+.important {
+	color:#F00;
+	font-weight:bold;
+}
+
+#content ul.field-list {
+	margin-bottom: 0em;
+}
+
+#content ul.field-list li {
+	list-style:none;
+	margin-left:0px;
+}
